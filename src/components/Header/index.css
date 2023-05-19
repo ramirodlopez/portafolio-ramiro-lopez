@@ -1,0 +1,75 @@
+/**********TYPE TEXT*********/
+.typed-text {
+  font-size: 1.3rem;  
+  font-weight: 400;
+  color: black
+}
+
+.c-padre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 8rem;
+    /*border: 2px solid black;*/
+
+
+}
+
+.c-hijo {
+    width: 30rem;
+    margin: 10px;
+   /*border: 2px solid black;*/
+}
+
+.box-texto{
+    /*border: 2px solid black;*/
+    padding: 5px; /* Ajusta el espacio interno del borde según tus necesidades */
+    
+   
+}
+
+.p-perfil {
+    /*border: 2px solid black;*/ 
+     /* Ajusta el espacio interno del borde según tus necesidades */
+    width: max(90%,250px);
+    line-height: 1.8rem;
+    font-size: clamp(16px,1.6vw,20px);
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+.img-foto {
+    width: 17rem; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: 17rem;
+    background-color: black;
+    padding: 1px;
+    border-radius: 50%; /* Aplica la forma redonda a la imagen */
+    object-fit: cover; /* Asegura que la imagen se ajuste dentro del contenedor redondo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Añade un efecto de sombra a la imagen */
+    
+
+}
+
+.typed-text {
+    font-weight: 600;
+    
+}
+
+.c-h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 5px 15px;
+    margin: 15px 15px 15px 0px;
+   
+}
+
+.icono:hover {
+    color: #ffffff;
+}
