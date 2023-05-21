@@ -1,0 +1,46 @@
+.c-principal-contacto {
+  margin-bottom: 10rem;
+}
+
+.c-padre-contacto{
+    text-align: center;
+    padding: 10px;
+    margin-top: 15rem;
+  /*border: 2px solid black;*/
+}
+
+
+.c-h1-contacto {
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+
+.c-p-contacto {
+  font-weight:lighter;
+  opacity: 90%;
+
+}
+
+.c-contacto {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-right:30% ;
+  margin-left:30% ;
+  padding: 20px;
+}
+
+.form-control:focus {
+  border-color: #373737; /* Cambia el color de borde cuando está en estado active */
+  box-shadow: 0 0 0 0.2rem rgba(87, 87, 87, 0.25); /* Cambia el sombreado cuando está en estado active */
+}
+
+
+.icono-contacto {
+  margin-left: 10px;
+}
+
+.icono-contacto:hover {
+  color: #ffffff;
+}

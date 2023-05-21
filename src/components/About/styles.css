@@ -1,0 +1,160 @@
+
+.c-padre-about{
+    text-align: center;
+    padding: 10px;
+    margin-top: 15rem;
+  /*border: 2px solid black;*/
+}
+
+.c-h1-about {
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+
+.c-p-about {
+  font-weight:lighter;
+  opacity: 90%;
+
+}
+
+.flex-padre-about {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+   /*border: 2px solid black;*/
+}
+
+.flex-hijo-about {
+    width: 30rem;
+    margin: 40px;
+   /*border: 2px solid black;*/
+}
+
+
+/****************LINEA DE TIEMPO*****************/
+.timeline-section{
+	background-color: #ffffff;
+
+}
+.timeline-items{
+	max-width: 1000px;
+	margin:auto;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+.timeline-items::before{
+	content: '';
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	background-color: #2f363e;
+	left: calc(50% - 1px);
+	z-index: 1;
+}
+.timeline-item{
+	margin-bottom: 15px;
+	width: 100%;
+	position: relative;
+	
+}
+
+
+
+.timeline-item:last-child{
+	margin-bottom: 0;
+}
+.timeline-item:nth-child(odd){
+    padding-right: calc(50% + 30px);
+	text-align: right;
+}
+.timeline-item:nth-child(even){
+    padding-left: calc(50% + 30px);
+}
+.timeline-dot{
+	height: 16px;
+	width: 16px;
+	background-color: #000000;
+	position: absolute;
+	left: calc(50% - 8px);
+	border-radius: 50%;
+	top:10px;
+	z-index: 1;
+}
+.timeline-date{
+	font-size: 18px;
+	color: #000000;
+}
+.timeline-content{
+  
+	padding: 10px;
+	border-radius: 5px;
+	
+}
+
+
+.timeline-content h3{
+    font-size: 15px;
+	color: #000000;
+	margin:0 0 10px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+.timeline-content p{
+    color: #000000;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+}
+
+/* responsive */
+@media(max-width: 767px){
+	.timeline-items::before{
+		left: 7px;
+	}
+	.timeline-item:nth-child(odd){
+		padding-right: 0;
+		text-align: left;
+	}
+	.timeline-item:nth-child(odd),
+	.timeline-item:nth-child(even){
+		padding-left: 37px;
+	}
+	.timeline-dot{
+		left:0;
+	}
+
+	.flex-padre-about {
+        flex-direction: column;
+        margin-top: 4rem;
+        align-items: normal;
+       
+    }
+
+    .c-hijo-about {
+        width: 25rem;
+        margin: 40px;
+        /* border: 2px solid black; */
+    }
+
+    .c-h1-about {
+        margin-bottom: 20px;
+        margin-top: 1px;
+    }
+
+    .flex-container-redes-about {
+        display: flex;
+        flex-direction:row;
+        flex-wrap: 10px;
+		align-items: center;
+		justify-content: center;
+        
+    }
+  
+    .red {
+        width: 10rem;
+   
+    }
+}

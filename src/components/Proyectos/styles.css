@@ -1,0 +1,104 @@
+.c-h1-proyectos {
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.c-p-proyectos {
+	font-weight:lighter;
+	opacity: 90%;
+  
+  }
+
+.c-padre-proyectos{
+    text-align: center;
+    padding: 10px;
+    margin-top: 15rem;
+  /*border: 2px solid black;*/
+}
+
+.p-contenedor-proyectos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+}
+
+
+
+.card-proyectos{
+	
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
+    transition: transform 0.3s ease;
+
+	
+}
+
+
+
+.card-proyectos:hover{
+    transform: scale(1.07);
+}
+
+.btn-p{
+    font-size: 15px;
+    padding: 3px 6px;
+    margin: 15px 15px 15px 0px;
+    transition: transform 0.3s ease;
+}
+
+.btn-p:hover{
+    transform: scale(1.07);
+}
+
+.icono-proyecto {
+   margin-right: 5px;
+}
+
+.icono-proyecto:hover {
+    color: #ffffff;
+}
+
+.banner {
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+
+
+}
+
+.banner ul {
+	list-style: none;
+}
+
+.banner ul li {
+	margin: 15px;
+	font-weight: bold;
+}
+
+.banner .boton {
+	background: #FFD600;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
