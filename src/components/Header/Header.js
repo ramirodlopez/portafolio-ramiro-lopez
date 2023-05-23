@@ -5,7 +5,7 @@ import Typed from "react-typed";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane} from "@fortawesome/free-solid-svg-icons";
 import {faCloudArrowDown} from "@fortawesome/free-solid-svg-icons";
-import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 
 
 
@@ -43,7 +43,7 @@ const Header = () => {
                       <p className="p-perfil-header">Soy un desarrollador de software apasionado y altamente motivado, enfocado en crear soluciones innovadoras y de alto rendimiento.</p>
                   
              
-                      <a href="https://api.whatsapp.com/send/?phone=5491136727054&text&type=phone_number&app_absent=0" target="_blank"><button type="button" className="btn btn-dark">¡Hola! <span><FontAwesomeIcon icon={faPaperPlane} style={{color: "#ffffff",}} /></span></button></a>
+                      <a href="https://api.whatsapp.com/send/?phone=5491136727054&text&type=phone_number&app_absent=0" target="_blank"><button type="button" className="btn btn-dark">¡Hola! <span><BsWhatsapp style={{color: "#ffffff",}} /></span></button></a>
                       <a href="https://drive.google.com/file/d/1qELjNXNu_BoKV6H1Jz3cK4-UbQ-9Xs04/view?usp=sharing" target="_blank"><button type="button" className="btn btn-outline-dark">Curriculum <span><FontAwesomeIcon className="icono" icon={faCloudArrowDown} /></span></button></a>
     
                       

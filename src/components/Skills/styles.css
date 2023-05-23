@@ -81,35 +81,11 @@
 }
 
 
-.banner {
-	border-radius: 10px;
-	text-align: center;
-	padding: 20px;
-	background-size: cover;
-	background-position: center center;
 
-
-}
-
-.banner ul {
-	list-style: none;
-}
-
-.banner ul li {
-	margin: 15px;
-	font-weight: bold;
-}
-
-.banner .boton {
-	background: #FFD600;
-	display: block;
-	width: 100%;
-	font-weight: bold;
-	font-size: 14px;
-	text-align: center;
-	padding: 10px;
-	border: none;
-	border-radius: 100px;
-	font-family: 'Roboto', sans-serif;
-	cursor: pointer;
+/* responsive */
+@media(max-width: 767px){
+	.p-contenedor-skills {
+			grid-template-columns: 1fr 1fr;
+			
+	}
 }

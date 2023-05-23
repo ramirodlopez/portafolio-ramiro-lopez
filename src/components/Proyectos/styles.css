@@ -102,3 +102,11 @@
 	font-family: 'Roboto', sans-serif;
 	cursor: pointer;
 }
+
+/* responsive */
+@media(max-width: 767px){
+	.p-contenedor-proyectos {
+			grid-template-columns: 1fr;
+			
+	}
+}

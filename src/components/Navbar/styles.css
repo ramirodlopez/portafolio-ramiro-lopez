@@ -4,7 +4,7 @@
   }
   
   /*********************MENU LINKS***********/
-  
+
   .navbar{
    padding: 2rem;
    position: fixed;
@@ -51,6 +51,21 @@
   .navbar-nav > li > a:hover {
     border-top: 0.1875rem solid var(--primary-black);
    }
+
+
+   .flechita{
+    bottom: 0;
+    right: 0;
+    padding: 3.5rem;
+    position: fixed;
+    z-index:99999;
+    font-size: 3rem;
+    transition: transform 0.3s ease;
+  }
+
+  .flechita:hover {
+    transform: scale(1.2);
+  }
 
  
  
