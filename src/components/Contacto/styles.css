@@ -46,6 +46,10 @@
   color: #ffffff;
 }
 
+.form-group {
+  margin: 10px;
+}
+
 /* responsive */
 @media(max-width: 767px){
 	.c-contacto {
