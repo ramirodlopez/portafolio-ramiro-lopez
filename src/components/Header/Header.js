@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles.css'
-import Ramiro from "../../assets/ramirofoto.jpeg";
+import Ramiro from "../../assets/ramirofotosinfondo.png";
 import Typed from "react-typed";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane} from "@fortawesome/free-solid-svg-icons";
@@ -50,8 +50,9 @@ const Header = () => {
                       
             </div>
             <div className="c-hijo-header">
+            
                     <img className="img-foto-header" src={Ramiro} />
-
+       
             </div>
         </div>
             

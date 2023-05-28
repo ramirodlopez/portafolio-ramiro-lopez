@@ -54,20 +54,19 @@
 
 
 .img-foto-header {
-    width: 20rem; /* Ajusta el tamaño de la imagen según sea necesario */
-    height: 20rem;
-    background-color: rgb(41, 41, 41);
+    width: 23rem; 
+    height: 23rem;
+    background-color: rgb(87, 87, 87);
     padding: 1px;
-    border-radius: 50%; /* Aplica la forma redonda a la imagen */
-    object-fit: cover; /* Asegura que la imagen se ajuste dentro del contenedor redondo */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Añade un efecto de sombra a la imagen */
-    /*transition: transform 0.3s ease;*/
+    border-radius: 50%; 
+    object-fit: cover; 
+    box-shadow: 1px 1px 54px -14px rgba(0,0,0,0.71);
+    -webkit-box-shadow: 1px 1px 54px -14px rgba(0,0,0,0.71);
+    -moz-box-shadow: 1px 1px 54px -14px rgba(0,0,0,0.71);
+   
 
 }
 
-/*.img-foto-header:hover {
-    transform: scale(1.1);
-  }*/
 
 
 
