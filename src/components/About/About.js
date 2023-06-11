@@ -50,8 +50,9 @@ const About = () => {
 
                     </div>
                     <div className="flex-hijo-about">
-                        <p>En la UTN, estoy cursando la Tecnicatura en Sistemas Informáticos, donde he adquirido conocimientos fundamentales en el campo de la informática y la programación. A través de esta carrera, he desarrollado habilidades en diferentes áreas, como la lógica de programación, la administración de bases de datos y la seguridad informática.
-                        En Coderhouse, he completado un programa detas y escalables utilizando Java como lenguaje principal.</p>
+                        <p>Mi experiencia en la UTN me ha brindado una perspectiva integral de los sistemas informáticos, y me ha permitido desarrollar habilidades prácticas y técnicas. Me siento cómodo trabajando con diferentes lenguajes de programación, como Java y Python, y he adquirido experiencia en el diseño y desarrollo de aplicaciones.
+
+Además, complementando mi formación académica, he participado en el programa de Desarrollador Fullstack en Coderhouse, donde he tenido la oportunidad de expandir mis habilidades en el ámbito del desarrollo web. Durante este programa, he aprendido a construir aplicaciones web dinámicas y escalables utilizando Java como lenguaje principal. Además, he adquirido conocimientos en tecnologías complementarias como HTML, CSS y bases de datos relacionales.</p>
                     </div>
                     <div className="flex-hijo-about">
                         <center><h4>Experiencia</h4></center>
